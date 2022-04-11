@@ -143,13 +143,13 @@ km = kmeans(data, iter.max=100, NumberOfClusters)
 km.size <- km$size
 km.size
 
+# plot the heatmaps
+clusterMeans = sapply(split(data, km$cluster), colMeans)
+heatmap(clusterMeans, scale="none", main="Unscaled scores")
+heatmap(clusterMeans, scale="row", 
+        main="Which cluster scores highest on each variable?")
+heatmap(clusterMeans, scale="col",
+        main="Which variables score highest in each cluster?")
 
-
-table(kmeans.mod)
-
-
-clusterMeans = sapply(split(data, assignments), colMeans)
-
-
-
-
+# table
+clusterMeans

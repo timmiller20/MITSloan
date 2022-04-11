@@ -1,0 +1,14 @@
+# Solution for model model_1
+# Objective value = 9.9983333333333339e+03
+milk_shipment_from_node_1_to_node_4 0
+milk_shipment_from_node_1_to_node_5 0
+milk_shipment_from_node_2_to_node_4 0
+milk_shipment_from_node_2_to_node_5 0
+milk_shipment_from_node_3_to_node_4 5.8333333333333339e+00
+milk_shipment_from_node_3_to_node_5 8.1666666666666671e+01
+milk_shipment_from_node_4_to_node_6 5.8333333333333330e+00
+milk_shipment_from_node_4_to_node_7 0
+milk_shipment_from_node_4_to_node_8 0
+milk_shipment_from_node_5_to_node_6 0
+milk_shipment_from_node_5_to_node_7 2.3333333333333332e+01
+milk_shipment_from_node_5_to_node_8 5.8333333333333336e+01
