@@ -318,4 +318,14 @@ music.test
 specific_user = music[which(music[,1]==1089),]
 specific_user
 
-specific_user <- impute(fit, specific_user$userID, music.test$songID, unscale = TRUE)
+specific_user <- impute(fit, music$userID == 1089, music$songID, unscale = TRUE)
+?impute
+
+music.test
+pred_outsample
+
+
+
+fit$d
+
+head(fit$v %*% diag(fit$d))
